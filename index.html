@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>kttex Website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid topbar px-0 d-none d-lg-block">
+      <div class="container px-0">
+        <div class="row gx-0 align-items-center" style="height: 45px">
+          <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+            <div class="d-flex flex-wrap">
+              <a href="#" class="text-muted me-4"
+                ><i class="fas fa-map-marker-alt text-primary me-2"></i
+                >MQFJ+27C, Rue Hédi Nouira, Menzel Ennour</a
+              >
+              <a href="#" class="text-muted me-4"
+                ><i class="fas fa-phone-alt text-primary me-2"></i> +216 73 568
+                344</a
+              >
+              <a href="#" class="text-muted me-0"
+                ><i class="fas fa-envelope text-primary me-2"></i
+                >direction@kttex.com.tn</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 text-center text-lg-end">
+            <div class="d-flex align-items-center justify-content-end">
+              <a
+                href="#"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-facebook-f text-white"></i
+              ></a>
+              <a
+                href="#"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-twitter text-white"></i
+              ></a>
+              <a
+                href="#"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-3"
+                ><i class="fab fa-instagram text-white"></i
+              ></a>
+              <a
+                href="#"
+                class="btn btn-primary btn-square rounded-circle nav-fill me-0"
+                ><i class="fab fa-linkedin-in text-white"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+  <!-- Début de la Modale de Recherche -->
+<div
+class="modal fade"
+id="searchModal"
+tabindex="-1"
+aria-labelledby="exampleModalLabel"
+aria-hidden="true"
+>
+<div class="modal-dialog modal-fullscreen">
+  <div class="modal-content rounded-0">
+    <div class="modal-header">
+      <h4 class="modal-title mb-0" id="exampleModalLabel">
+        Rechercher par mot-clé
+      </h4>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="modal"
+        aria-label="Fermer"
+      ></button>
+    </div>
+    <div class="modal-body d-flex align-items-center">
+      <div class="input-group w-75 mx-auto d-flex">
+        <input
+          type="search"
+          class="form-control p-3"
+          placeholder="mots-clés"
+          aria-describedby="search-icon-1"
+        />
+        <span id="search-icon-1" class="input-group-text p-3"
+          ><i class="fa fa-search"></i
+        ></span>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Fin de la Modale de Recherche -->
+
+<!-- Début du Carrousel -->
+<div class="header-carousel owl-carousel" id="Contactez-Nous">
+  <div class="header-carousel-item">
+    <div class="header-carousel-item-img-1">
+      <img src="img/carousel-4.jpg" class="img-fluid w-100" alt="Image" />
+    </div>
+    <div class="carousel-caption">
+      <div class="carousel-caption-inner text-start p-3">
+        <h1
+          class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+          data-animation="fadeInUp"
+          data-delay="1.3s"
+          style="animation-delay: 1.3s"
+        >
+          Fournisseur de Vêtements de Travail dans le Monde Entier
+        </h1>
+        <p
+          class="mb-5 fs-5 fadeInUp animate__animated"
+          data-animation="fadeInUp"
+          data-delay="1.5s"
+          style="animation-delay: 1.5s"
+        >
+          kTTEX propose une large gamme de vêtements de travail durables, confortables et fonctionnels, adaptés aux besoins de diverses industries, garantissant sécurité et performance au travail.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="header-carousel-item mx-auto">
+    <div class="header-carousel-item-img-2">
+      <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image" />
+    </div>
+    <div class="carousel-caption">
+      <div class="carousel-caption-inner text-center p-3">
+        <h1 class="display-1 text-capitalize text-white mb-4">
+          Fournisseur de Vêtements de Travail dans le Monde Entier
+        </h1>
+        <p class="mb-5 fs-5">
+          kTTEX propose une large gamme de vêtements de travail durables, confortables et fonctionnels, adaptés aux besoins de diverses industries, garantissant sécurité et performance au travail.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="header-carousel-item">
+    <div class="header-carousel-item-img-3">
+      <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Image" />
+    </div>
+    <div class="carousel-caption">
+      <div class="carousel-caption">
+        <div class="carousel-caption-inner text-center p-3">
+          <h1 class="display-1 text-capitalize text-white mb-4">
+            Fournisseur de Vêtements de Travail dans le Monde Entier
+          </h1>
+          <p class="mb-5 fs-5">
+            STTEX propose une large gamme de vêtements de travail durables, confortables et fonctionnels, adaptés aux besoins de diverses industries, garantissant sécurité et performance au travail.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin du Carrousel -->
+
+   <!-- Début de la Section À Propos -->
+<div class="container-fluid about bg-light py-5" id="À_Propos">
+  <div class="container py-5">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+        <div class="about-img">
+          <img
+            src="img/about-3.png"
+            class="img-fluid w-100 rounded-top bg-white"
+            alt="Image"
+          />
+          <img
+            src="img/jeune-homme.jpg"
+            class="img-fluid w-100 rounded-bottom"
+            alt="Image"
+          />
+        </div>
+      </div>
+      <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+        <h4 class="text-primary">À Propos de Nous</h4>
+        <h1 class="display-5 mb-4">Fournisseur de Vêtements de Travail dans le Monde Entier</h1>
+        <p class="text ps-4 mb-4">
+          kTTEX est une entreprise de fabrication de vêtements de travail fondée en 2011 à Tunis, Monastir. Nous proposons une large gamme de vêtements de travail durables, confortables et fonctionnels, conçus pour répondre aux besoins spécifiques de diverses industries, garantissant sécurité et performance au travail.
+        </p>
+        <div class="row g-4 justify-content-between mb-5">
+          <div class="col-lg-6 col-xl-5">
+            <p class="text-dark">
+              <i class="fas fa-check-circle text-primary me-1"></i> Stratégie & Conseil
+            </p>
+            <p class="text-dark mb-0">
+              <i class="fas fa-check-circle text-primary me-1"></i> Processus Métier
+            </p>
+          </div>
+          <div class="col-lg-6 col-xl-7">
+            <p class="text-dark">
+              <i class="fas fa-check-circle text-primary me-1"></i> Règles de Marketing
+            </p>
+            <p class="text-dark mb-0">
+              <i class="fas fa-check-circle text-primary me-1"></i> Partenariats
+            </p>
+          </div>
+        </div>
+        <div
+          class="row g-4 text-center align-items-center justify-content-center"
+        >
+          <div class="col-sm-4">
+            <div class="bg-primary rounded p-4">
+              <div class="d-flex align-items-center justify-content-center">
+                <span
+                  class="counter-value fs-1 fw-bold text-dark"
+                  data-toggle="counter-up"
+                  >32</span
+                >
+                <h4
+                  class="text-dark fs-1 mb-0"
+                  style="font-weight: 600; font-size: 25px"
+                >
+                  k+
+                </h4>
+              </div>
+              <div
+                class="w-100 d-flex align-items-center justify-content-center"
+              >
+                <p class="text-white mb-0">Projets Réalisés</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="bg-dark rounded p-4">
+              <div class="d-flex align-items-center justify-content-center">
+                <span
+                  class="counter-value fs-1 fw-bold text-white"
+                  data-toggle="counter-up"
+                  >14</span
+                >
+                <h4
+                  class="text-white fs-1 mb-0"
+                  style="font-weight: 600; font-size: 25px"
+                >
+                  +
+                </h4>
+              </div>
+              <div
+                class="w-100 d-flex align-items-center justify-content-center"
+              >
+                <p class="mb-0">Années d’Expérience</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="bg-primary rounded p-4">
+              <div class="d-flex align-items-center justify-content-center">
+                <span
+                  class="counter-value fs-1 fw-bold text-dark"
+                  data-toggle="counter-up"
+                  >110</span
+                >
+                <h4
+                  class="text-dark fs-1 mb-0"
+                  style="font-weight: 600; font-size: 25px"
+                >
+                  +
+                </h4>
+              </div>
+              <div
+                class="w-100 d-flex align-items-center justify-content-center"
+              >
+                <p class="text-white mb-0">Membres de l’Équipe</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin de la Section À Propos -->
+
+<!-- Début des Services -->
+<div class="container-fluid service py-5" id="Nos_Processus">
+  <div class="container py-5">
+    <div
+      class="text-center mx-auto pb-5 wow fadeInUp"
+      data-wow-delay="0.1s"
+      style="max-width: 800px"
+    >
+      <h4 class="text-primary">Nos Processus</h4>
+      <h1 class="display-4">
+        Maîtriser les Processus de Production des Vêtements de Travail
+      </h1>
+    </div>
+    <div class="row g-4 justify-content-center text-center">
+      <div
+        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+        data-wow-delay="0.1s"
+      >
+        <div class="service-item bg-light rounded" style="height: 420px">
+          <div class="service-img">
+            <img
+              src="img\materiel-coupe.jpg"
+              style="height: 160px"
+              class="img-fluid w-100 rounded-top"
+              alt=""
+            />
+          </div>
+          <div class="service-content text-center p-4">
+            <div class="service-content-inner">
+              <a
+                href="#"
+                class="h4 mb-4 d-inline-flex text-start"
+                style="font-size: 20px"
+              >
+                <i class="fas fa-cut fa-2x me-2"></i>Découpe
+              </a>
+              <p class="mb-4">
+                Précision dans la découpe des tissus pour répondre aux exigences spécifiques des designs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+        data-wow-delay="0.3s"
+      >
+        <div class="service-item bg-light rounded" style="height: 420px">
+          <div class="service-img">
+            <img
+              src="img\femme-tailleur.jpg"
+              style="height: 160px"
+              class="img-fluid w-100 rounded-top"
+              alt=""
+            />
+          </div>
+          <div class="service-content text-center p-4">
+            <div class="service-content-inner">
+              <a
+                href="#"
+                class="h4 mb-4 d-inline-flex text-start"
+                style="font-size: 20px"
+              >
+                <i class="fas fa-industry fa-2x me-2"></i>Production
+              </a>
+              <p class="mb-4">
+                Processus de production efficaces pour garantir des vêtements de travail de haute qualité.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+        data-wow-delay="0.5s"
+      >
+        <div class="service-item bg-light rounded" style="height: 420px">
+          <div class="service-img">
+            <img
+              src="img\automatisation-transport.avif"
+              style="height: 160px"
+              class="img-fluid w-100 rounded-top"
+              alt=""
+            />
+          </div>
+          <div class="service-content text-center p-4">
+            <div class="service-content-inner">
+              <a
+                href="#"
+                class="h4 mb-4 d-inline-flex text-start"
+                style="font-size: 19px"
+              >
+                <i class="fas fa-truck-loading fa-2x me-2"></i>
+                <p style="font-size: 18px">Chaîne d’Approvisionnement</p>
+              </a>
+              <p class="mb-4">
+                Logistique optimisée pour une livraison rapide et une allocation efficace des ressources.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+        data-wow-delay="0.7s"
+      >
+        <div class="service-item bg-light rounded" style="height: 420px">
+          <div class="service-img">
+            <img
+              src="img\icone-presse.jpg"
+              style="height: 160px"
+              class="img-fluid w-100 rounded-top"
+              alt=""
+            />
+          </div>
+          <div class="service-content text-center p-4">
+            <div class="service-content-inner">
+              <a
+                href="#"
+                class="h4 mb-4 d-inline-flex text-start"
+                style="font-size: 20px"
+              >
+                <i class="fas fa-tasks fa-2x me-2"></i>Gestion de la Qualité
+              </a>
+              <p class="mb-4">
+                Garantie que chaque pièce répond à des normes de qualité rigoureuses.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+        data-wow-delay="0.7s"
+      >
+        <div class="service-item bg-light rounded" style="height: 420px">
+          <div class="service-img">
+            <img
+              src="img\concept-controle.avif"
+              style="height: 160px"
+              class="img-fluid w-100 rounded-top"
+              alt=""
+            />
+          </div>
+          <div class="service-content text-center p-4">
+            <div class="service-content-inner">
+              <a
+                href="#"
+                class="h4 mb-4 d-inline-flex text-start"
+                style="font-size: 20px"
+              >
+                <i class="fas fa-cogs fa-2x me-2"></i>Technique et Commercial
+              </a>
+              <p class="mb-4">
+                S’assurer que chaque pièce répond à des normes de qualité strictes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+        data-wow-delay="0.7s"
+      >
+        <div class="service-item bg-light rounded" style="height: 420px">
+          <div class="service-img">
+            <img
+              src="img/service-3.jpg"
+              style="height: 160px"
+              class="img-fluid w-100 rounded-top"
+              alt=""
+            />
+          </div>
+          <div class="service-content text-center p-4">
+            <div class="service-content-inner">
+              <a
+                href="#"
+                class="h4 mb-4 d-inline-flex text-start"
+                style="font-size: 20px"
+              >
+                <i class="fas fa-user-tie fa-2x me-2"></i>Gestion des Ressources Humaines
+              </a>
+              <p class="mb-4">
+                Renforcer les équipes grâce à des stratégies efficaces en ressources humaines.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+        data-wow-delay="0.7s"
+      >
+        <div class="service-item bg-light rounded" style="height: 420px">
+          <div class="service-img">
+            <img
+              src="img\istockphoto.jpg"
+              style="height: 160px"
+              class="img-fluid w-100 rounded-top"
+              alt=""
+            />
+          </div>
+          <div class="service-content text-center p-4">
+            <div class="service-content-inner">
+              <a
+                href="#"
+                class="h4 mb-4 d-inline-flex text-start"
+                style="font-size: 20px"
+              >
+                <i class="fas fa-check-circle fa-2x me-2"></i>Contrôle Qualité
+              </a>
+              <p class="mb-4">
+                Inspection des produits pour maintenir leur cohérence et leur fiabilité.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin des Services -->
+
+
+<!-- Début des Événements -->
+<div class="container-fluid project" id="Nos_Événements">
+  <div class="container">
+    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px">
+      <h4 class="text-primary">Nos Événements</h4>
+      <h1 class="display-4">Découvrez Nos Derniers Événements</h1>
+    </div>
+    <div class="project-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+      <!-- Événement 1 : Octobre Rose -->
+      <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="project-img">
+          <img src="img/october-rose.jpg" class="img-fluid w-100 rounded" alt="Événement Octobre Rose" />
+        </div>
+        <div class="project-content bg-light rounded p-4" style="height: 300px;">
+          <div class="project-content-inner">
+            <div class="project-icon mb-3">
+              <i class="fas fa-ribbon fa-4x text-primary"></i>
+            </div>
+            <p class="text-dark fs-5 mb-3">Sensibilisation au Cancer du Sein</p>
+            <a href="#" class="h4">
+              Octobre Rose : Sensibiliser au Soutien contre le Cancer du Sein
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Événement 2 : Sécurité au Travail -->
+      <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="project-img">
+          <img src="img/workplace-safety.jpg" class="img-fluid w-100 rounded" alt="Événement Sécurité au Travail" />
+        </div>
+        <div class="project-content bg-light rounded p-4" style="height: 300px;">
+          <div class="project-content-inner">
+            <div class="project-icon mb-3">
+              <i class="fas fa-shield-alt fa-4x text-primary"></i>
+            </div>
+            <p class="text-dark fs-5 mb-3">Sécurité au Travail</p>
+            <a href="#" class="h4">
+              Sécurité au Travail : Promouvoir un Environnement de Travail Sûr et Sain
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin des Événements -->
+
+<!-- Blog Start -->
+<div class="container-fluid blog pb-5" id="articles">
+  <div class="container pb-5">
+    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" >
+      <h4 class="text-primary">Nos Articles</h4>
+      <h1 class="display-4">Découvrez Nos Derniers Articles et Actualités</h1>
+    </div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2" id ="Parka">Parka</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/parka.jpg" class="img-fluid w-100 rounded" alt="Image Parka" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/parka.jpg" data-lightbox="blog-1" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Explorer la Parka Parfaite pour Toutes les Saisons</a>
+            </div>
+            <p class="text-muted">
+              Découvrez le design élégant et les caractéristiques résistantes aux intempéries de notre parka, conçue pour un confort et une durabilité toute l’année.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Veste poste</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Veste poste.jpg" class="img-fluid w-100 rounded" alt="Image Veste Poste" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Veste poste.jpg" data-lightbox="blog-2" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">La Veste Poste : Style et Utilité Réunis</a>
+            </div>
+            <p class="text-muted">
+              Découvrez l’élégance pratique de notre veste poste, alliant fonctionnalité et esthétique moderne pour un usage quotidien.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2" id ="Veste Pompier">Veste pompier</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Veste pompier.jpg" class="img-fluid w-100 rounded" alt="Image Veste Pompier" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Veste pompier.jpg" data-lightbox="blog-3" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">À l’Intérieur de la Veste Pompier : La Sécurité Avant Tout</a>
+            </div>
+            <p class="text-muted">
+              Explorez les caractéristiques de sécurité avancées et le design robuste de notre veste pompier, conçue pour les conditions extrêmes.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Blouson illuminé</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Blouson illumine.jpg" class="img-fluid w-100 rounded" alt="Image Blouson Illuminé" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Blouson illumine.jpg" data-lightbox="blog-4" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Brillez avec Notre Blouson Illuminé</a>
+            </div>
+            <p class="text-muted">
+              Découvrez notre blouson illuminé, doté d’améliorations LED pour une visibilité et un style exceptionnels dans l’obscurité.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 5 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Veste matelassée</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Veste matelassée.jpg" class="img-fluid w-100 rounded" alt="Image Veste Matelassée" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Veste matelassée.jpg" data-lightbox="blog-5" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Chaleur et Style : Le Guide de la Veste Matelassée</a>
+            </div>
+            <p class="text-muted">
+              Restez au chaud et élégant avec notre veste matelassée, conçue avec une isolation premium pour un confort optimal.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 6 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Gilet sans manche</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Gilet sans manche.jpg" class="img-fluid w-100 rounded" alt="Image Gilet Sans Manche" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Gilet sans manche.jpg" data-lightbox="blog-6" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">La Polyvalence du Gilet Sans Manche</a>
+            </div>
+            <p class="text-muted">
+              Profitez d’une liberté de mouvement avec notre gilet sans manche, idéal pour superposer ou porter seul.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 7 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Blouse</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Blouse.jpg" class="img-fluid w-100 rounded" alt="Image Blouse" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Blouse.jpg" data-lightbox="blog-7" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Élégance en Toute Simplicité : La Blouse Parfaite</a>
+            </div>
+            <p class="text-muted">
+              Rehaussez votre garde-robe avec notre blouse légère, alliant élégance et tissu respirant.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 8 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Bourgeron</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Bud.jpg" class="img-fluid w-100 rounded" alt="Image Bud" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Bud.jpg" data-lightbox="blog-8" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">La Veste Bud : Prête pour Toute Aventure</a>
+            </div>
+            <p class="text-muted">
+              Découvrez notre veste Bud polyvalente, conçue pour les sorties décontractées comme pour les aventures robustes.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 9 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2" id ="Pantalon Illuminé">Pantalon illuminé</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Light up pants.jpg" class="img-fluid w-100 rounded" alt="Image Pantalon Illuminé" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Light up pants.jpg" data-lightbox="blog-9" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Pantalon Illuminé : Une Mode qui Brille</a>
+            </div>
+            <p class="text-muted">
+              Démarquez-vous avec notre pantalon illuminé, combinant mode audacieuse et accents lumineux pour un éclat nocturne.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 10 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Pantalon pompier</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Firefighter Patalom.jpg" class="img-fluid w-100 rounded" alt="Image Pantalon Pompier" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Firefighter Patalom.jpg" data-lightbox="blog-10" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Pantalon Pompier : Conçu pour la Chaleur</a>
+            </div>
+            <p class="text-muted">
+              Apprenez-en plus sur notre pantalon pompier, fabriqué avec des matériaux résistants à la chaleur pour une protection et une mobilité maximales.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 11 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Pantalon essentiel</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Essential pants.jpg" class="img-fluid w-100 rounded" alt="Image Pantalon Essentiel" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Essential pants.jpg" data-lightbox="blog-11" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Pantalon Essentiel : L’Incontournable de Votre Garde-Robe</a>
+            </div>
+            <p class="text-muted">
+              Améliorez vos basiques avec notre pantalon essentiel, offrant durabilité et confort pour toutes les occasions.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 12 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Tablier</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Apron.jpg" class="img-fluid w-100 rounded" alt="Image Tablier" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Apron.jpg" data-lightbox="blog-12" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Le Tablier : Praticité et Style</a>
+            </div>
+            <p class="text-muted">
+              Protégez vos vêtements avec style grâce à notre tablier robuste, conçu pour allier praticité et allure professionnelle.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 13 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2" id ="Combinaison">Combinaison</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/combinition.jpg" class="img-fluid w-100 rounded" alt="Image Combinaison" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/combinition.jpg" data-lightbox="blog-13" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Combinaison : Robuste et Prête à l’Action</a>
+            </div>
+            <p class="text-muted">
+              Affrontez les tâches difficiles avec notre combinaison durable, conçue pour une couverture complète et une aisance de mouvement.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 14 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Cotte</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/cotte.jpg" class="img-fluid w-100 rounded" alt="Image Cotte" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/cotte.jpg" data-lightbox="blog-14" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Confort Intemporel : L’Histoire de la Cotte</a>
+            </div>
+            <p class="text-muted">
+              Adoptez un style classique avec notre cotte, une pièce polyvalente offrant confort et une silhouette intemporelle.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 15 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Cagoule</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/Blouson.jpg" class="img-fluid w-100 rounded" alt="Image Ensemble Pompier" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/Blouson.jpg" data-lightbox="blog-15" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">Ensemble Pompier : Protection Complète</a>
+            </div>
+            <p class="text-muted">
+              Équipez-vous avec notre ensemble pompier, incluant veste, pantalon et bretelles pour une sécurité optimale.
+            </p>
+          </div>
+        </div>
+
+        <!-- Slide 16 -->
+        <div class="swiper-slide">
+          <div class="blog-item bg-light rounded p-4" style="background-image: url(img/bg.png); height: 670px">
+            <div class="mb-4">
+              <h4 class="text-primary mb-2">Blouson, pantalon et bretelle pompier</h4>
+            </div>
+            <div class="project-img">
+              <img src="img/cagoule.jpg" class="img-fluid w-100 rounded" alt="Image Cagoule" style="height: 310px; object-fit: cover" />
+              <div class="blog-plus-icon">
+                <a href="img/cagoule.jpg" data-lightbox="blog-16" class="btn btn-primary btn-md-square rounded-pill">
+                  <i class="fas fa-plus fa-1x"></i>
+                </a>
+              </div>
+            </div>
+            <div class="my-4">
+              <a href="#" class="h4">La Cagoule : Protégez-Vous du Mauvais Temps</a>
+            </div>
+            <p class="text-muted">
+              Restez protégé avec notre cagoule, conçue pour offrir chaleur et couverture dans des conditions météorologiques difficiles.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Navigation arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</div>
+<!-- Blog End -->
+
+<!-- Début des Témoignages -->
+<div class="container-fluid testimonial bg-light py-5" id="Nos_Retours">
+  <div class="container py-5">
+    <div class="row g-4 align-items-center">
+      <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
+        <div class="h-100 rounded">
+          <h4 class="text-primary">Nos Retours</h4>
+          <h1 class="display-4 mb-4">Les Clients Parlent</h1>
+          <p class="mb-4">
+            Nos clients font confiance à KTTEX pour des vêtements de travail de haute qualité et durables qui répondent aux exigences de leurs industries. Lisez ce que nos clients satisfaits disent de nos produits et services.
+          </p>
+        </div>
+      </div>
+      <div class="col-xl-8">
+        <div
+          class="testimonial-carousel owl-carousel wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <!-- Témoignage 1 -->
+          <div
+            class="testimonial-item bg-white rounded p-4 wow fadeInUp"
+            data-wow-delay="0.3s"
+          >
+            <div class="d-flex">
+              <div>
+                <i class="fas fa-quote-left fa-3x text-dark me-3"></i>
+              </div>
+              <p class="mt-4">
+                "Les vêtements de travail KTTEX ont dépassé nos attentes. Leur durabilité et leur confort ont considérablement amélioré la productivité de notre équipe sur le terrain. Hautement recommandé !"
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="my-auto text-end">
+                <h5>John Doe</h5>
+                <p class="mb-0">Responsable de Chantier, Construction</p>
+              </div>
+              <div class="bg-white rounded-circle ms-3">
+                <img
+                  src="img/testimonial-1.jpg"
+                  class="rounded-circle p-2"
+                  style="
+                    width: 80px;
+                    height: 80px;
+                    border: 1px solid;
+                    border-color: var(--bs-primary);
+                  "
+                  alt="John Doe"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Témoignage 2 -->
+          <div
+            class="testimonial-item bg-white rounded p-4 wow fadeInUp"
+            data-wow-delay="0.5s"
+          >
+            <div class="d-flex">
+              <div>
+                <i class="fas fa-quote-left fa-3x text-dark me-3"></i>
+              </div>
+              <p class="mt-4">
+                "Notre équipe utilise les vêtements de travail KTTEX depuis plus d’un an maintenant. La qualité et l’attention aux détails sont exceptionnelles, garantissant sécurité et confort au travail tous les jours."
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="my-auto text-end">
+                <h5>Jane Smith</h5>
+                <p class="mb-0">Responsable des Opérations, Fabrication</p>
+              </div>
+              <div class="bg-white rounded-circle ms-3">
+                <img
+                  src="img/testimonial-2.jpg"
+                  class="rounded-circle p-2"
+                  style="
+                    width: 80px;
+                    height: 80px;
+                    border: 1px solid;
+                    border-color: var(--bs-primary);
+                  "
+                  alt="Jane Smith"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Témoignage 3 -->
+          <div
+            class="testimonial-item bg-white rounded p-4 wow fadeInUp"
+            data-wow-delay="0.7s"
+          >
+            <div class="d-flex">
+              <div>
+                <i class="fas fa-quote-left fa-3x text-dark me-3"></i>
+              </div>
+              <p class="mt-4">
+                "Le design innovant et la fonctionnalité des vêtements de travail KTTEX ont fait une différence remarquable dans nos opérations sur le terrain. Leurs produits allient sécurité et style sans effort."
+              </p>
+            </div>
+            <div class="d-flex justify-content-end">
+              <div class="my-auto text-end">
+                <h5>Michael Lee</h5>
+                <p class="mb-0">Superviseur Logistique, Transport</p>
+              </div>
+              <div class="bg-white rounded-circle ms-3">
+                <img
+                  src="img/testimonial-3.jpg"
+                  class="rounded-circle p-2"
+                  style="
+                    width: 80px;
+                    height: 80px;
+                    border: 1px solid;
+                    border-color: var(--bs-primary);
+                  "
+                  alt="Michael Lee"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin des Témoignages -->
+
+    <!-- Début de la FAQ -->
+<div class="container-fluid faq py-5">
+  <div class="container py-5">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+        <div class="pb-5">
+          <h4 class="text-primary">FAQ</h4>
+          <h1 class="display-4">Obtenez les Réponses aux Questions Courantes</h1>
+        </div>
+        <div class="accordion bg-light rounded p-4" id="accordionExample">
+          <!-- Question 1 -->
+          <div class="accordion-item border-0 mb-4">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button text-dark fs-5 fw-bold rounded-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Qu’est-ce que KTTEX et en quoi vous spécialisez-vous ?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body my-2">
+                <h5>À propos de KTTEX</h5>
+                <p>
+                  KTTEX est une entreprise de fabrication de vêtements de travail fondée en 2011 à Tunis, Monastir. Nous nous spécialisons dans la conception et la production de vêtements de travail durables, confortables et fonctionnels pour diverses industries, garantissant sécurité et performance optimale au travail.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Question 2 -->
+          <div class="accordion-item border-0 mb-4">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Quelles industries servez-vous ?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body my-2">
+                <h5>Industries</h5>
+                <p>
+                  Nous fournissons des solutions de vêtements de travail pour un large éventail d’industries, y compris la construction, la fabrication, la logistique, et plus encore. Nos produits sont conçus pour répondre aux exigences spécifiques de sécurité et de performance de chaque secteur.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Question 3 -->
+          <div class="accordion-item border-0 mb-4">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Comment assurez-vous la qualité et la durabilité de vos vêtements de travail ?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body my-2">
+                <h5>Qualité & Durabilité</h5>
+                <p>
+                  Chez KTTEX, nous utilisons des matériaux de haute qualité et des procédés de fabrication de pointe pour garantir que nos vêtements de travail répondent à des normes strictes de durabilité et de sécurité. Nos produits sont testés pour résister aux conditions de travail difficiles.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Question 4 -->
+          <div class="accordion-item border-0 mb-0">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed text-dark fs-5 fw-bold rounded-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Qu’est-ce qui rend les vêtements de travail KTTEX uniques ?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body my-2">
+                <h5>Notre Approche Unique</h5>
+                <p>
+                  Nos vêtements de travail se distinguent par leur combinaison de durabilité, de confort et de fonctionnalité. Nous concevons nos produits en pensant à l’utilisateur final, en veillant à ce que chaque pièce soit à la fois protectrice, pratique et confortable pour une utilisation quotidienne.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+        <div class="faq-img RotateMoveRight rounded">
+          <img
+            src="img/faq-img.jpg"
+            class="img-fluid rounded w-100"
+            alt="Image FAQ"
+          />
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin de la FAQ -->
+<!-- Début du Pied de Page -->
+<div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+  <div class="container py-5">
+    <div class="row g-5">
+      <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-item d-flex flex-column">
+          <div class="footer-item">
+            <h4 class="text-white mb-4">kTTEX</h4>
+            <p class="mb-3">
+              kTTEX est une entreprise de fabrication de vêtements de travail fondée en 2011 à Tunis, Monastir. Nous proposons une large gamme de vêtements de travail durables, confortables et fonctionnels, conçus pour répondre aux besoins spécifiques de diverses industries, garantissant sécurité et performance au travail.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-item d-flex flex-column">
+          <h4 class="text-white mb-4">Explorer</h4>
+          <a href="#Contactez-Nous"><i class="fas fa-angle-right me-2"></i> Accueil</a>
+          <a href="#À_Propos"><i class="fas fa-angle-right me-2"></i> À Propos de Nous</a>
+          <a href="#Nos_Événements"><i class="fas fa-angle-right me-2"></i> Nos Événements</a>
+          <a href="#Nos_Processus"><i class="fas fa-angle-right me-2"></i> Nos Processus</a>
+          <a href="#articles"><i class="fas fa-angle-right me-2"></i> Nos Articles</a>
+          <a href="#Nos_Retours"><i class="fas fa-angle-right me-2"></i> Nos Retours</a>
+          <a href="#Contactez-Nous"><i class="fas fa-angle-right me-2"></i> Contactez-Nous</a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-item d-flex flex-column">
+          <h4 class="text-white mb-4">Informations de Contact</h4>
+          <a href="https://www.google.com/maps?q=35.6726188659668,10.7806882858276" target="_blank">
+            <i class="fa fa-map-marker-alt me-2"></i>MQFJ+27C, Rue Hédi Nouira, Menzel Ennour
+          </a>
+          <a href=""><i class="fas fa-envelope me-2"></i> direction@kttex.com.tn</a>
+          <a href=""><i class="fas fa-phone me-2"></i> +216 73 568 344</a>
+          <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +216 73 568 344</a>
+          <div class="d-flex align-items-center">
+            <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-light btn-md-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-6 col-xl-3">
+        <div class="footer-item-post d-flex flex-column">
+          <h4 class="text-white mb-4">Articles Populaires</h4>
+          <div class="d-flex flex-column mb-3">
+            <p class="text-uppercase text-primary mb-2" >Parka</p>
+            <a href="#Parka" class="text-body">Explorer la Parka Parfaite pour Toutes les Saisons</a>
+          </div>
+          <div class="d-flex flex-column mb-3">
+            <p class="text-uppercase text-primary mb-2">Combinaison</p>
+            <a href="#Combinaison" class="text-body">Combinaison : Robuste et Prête à l’Action</a>
+          </div>
+          <div class="d-flex flex-column mb-3">
+            <p class="text-uppercase text-primary mb-2" >Veste Pompier</p>
+            <a href="#Veste Pompier" class="text-body">À l’Intérieur de la Veste Pompier : La Sécurité Avant Tout</a>
+          </div>
+          <div class="d-flex flex-column mb-3">
+            <p class="text-uppercase text-primary mb-2" >Pantalon Illuminé</p>
+            <a href="#Pantalon Illuminé" class="text-body">Pantalon Illuminé : Une Mode qui Brille</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin du Pied de Page -->
+
+<!-- Début du Copyright -->
+<div class="container-fluid copyright py-4">
+  <div class="container">
+    <div class="row g-4 align-items-center">
+      <div class="col-md-6 text-center text-md-start mb-md-0">
+        <span class="text-body">
+          <a href="#" class="border-bottom text-primary">
+            <i class="fas fa-copyright text-light me-2"></i>Kttex
+          </a>, Tous droits réservés.
+        </span>
+      </div>
+      <div class="col-md-6 text-center text-md-end text-body">
+        <!--/*** Ce modèle est gratuit tant que vous conservez le lien de crédit/attribution/lien retour de l’auteur ci-dessous. ***/-->
+        <!--/*** Si vous souhaitez utiliser le modèle sans le lien de crédit/attribution/lien retour de l’auteur ci-dessous, ***/-->
+        <!--/*** vous pouvez acheter la licence de suppression de crédit sur "https://htmlcodex.com/credit-removal". ***/-->
+        Conçu par Rania Slimene
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fin du Copyright -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"
+      ><i class="fa fa-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3, // Afficher 3 images à la fois
+        spaceBetween: 30, // Espace entre les slides (modifiable selon ton design)
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        // Optionnel : paramètres responsive
+        breakpoints: {
+          320: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        },
+      });
+    </script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
